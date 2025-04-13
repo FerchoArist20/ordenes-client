@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class CacheHandler extends Handler {
     @Override
     public boolean handle(Request request) {
-        if ("user123".equals(request.user) && "password123".equals(request.credentials)) {
+        if ("user123".equals(request.user) && "pass123".equals(request.credentials)) {
             System.out.println("✅ Usuario autenticado");
             return super.handle(request);
         } else {

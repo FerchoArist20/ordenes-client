@@ -57,7 +57,7 @@ Crea una orden luego de pasar por todas las validaciones.
 ```json
 {
   "user": "user123",
-  "credentials": "password123",
+  "credentials": "pass123",
   "data": "Compra de item <script>alert(1)</script>",
   "ip": "192.168.1.10",
   "isAdmin": true
